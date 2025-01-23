@@ -1,0 +1,5 @@
+[build]
+  functions = "netlify/functions"  # Path to your Netlify functions directory
+
+[functions]
+  timeout = 26  # Maximum timeout limit for Netlify functions (26 seconds)
